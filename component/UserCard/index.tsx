@@ -83,7 +83,7 @@ const UserCard: FC<UserCardProps> = (props) => {
                   <h1 className="font-large">Address</h1>
                   <div className="small-title">
                     {searchedWalletAddress
-                      ? Number(searchedWalletAddress).toFixed(4)
+                      ? Number(searchedWalletAddress)
                       : 'Searched User Address'}
                   </div>
                 </div>
