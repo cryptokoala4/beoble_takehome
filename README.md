@@ -30,3 +30,6 @@ The actual requirements for this coding challenge:
 - npm install
 - npm run start
 - visit http://localhost:3000/
+
+<img width="1140" alt="image" src="https://user-images.githubusercontent.com/13989105/187558784-ccadb9c4-6783-496f-9563-a81ca7c5bbbb.png">
+
