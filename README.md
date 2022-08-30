@@ -7,7 +7,7 @@ The app can be viewed at !(http insecured)!: http://www.jackywhlee.com.s3-websit
 This app's core features are:
 - Display connected network's basic information
 - Display connected user's basic information
-- Sign a message with the user's using the signMessage Ether.js api
+- Sign a message using the signMessage Ether.js api
 - Search an ENS name and display its basic information
 
 Basic coverage includes:
@@ -17,9 +17,10 @@ Basic coverage includes:
 
 Missing features:
 - Displaying the signed message's public key
-- Types may be badly managedimage.png
+- Types may be badly managed
+- Better error handling e.g. when a searched ENS name doesn't exist / null ENS Avatar
 
-The actual requirements for this coding challenge:
+The requirements for this coding challenge are:
 - You must use React, Typescript, and Web3.js / Ethers.js (either one of two)
 - Do not use any Project generation tool like CRA (Create-React-App)
 - Use 3rd party libraries as less as possible
