@@ -17,7 +17,14 @@ Basic coverage includes:
 
 Missing features:
 - Displaying the signed message's public key
-- Types may be badly managed
+- Types may be badly managedimage.png
+
+The actual requirements for this coding challenge:
+- You must use React, Typescript, and Web3.js / Ethers.js (either one of two)
+- Do not use any Project generation tool like CRA (Create-React-App)
+- Use 3rd party libraries as less as possible
+- Your product should be responsive - so that can satisfy both desktop and mobile UX.
+- Write a short Readme document to explain your task.
 
 # Running it locally
 - npm install
