@@ -20,7 +20,7 @@ const Header: FC<HeaderProps> = (props) => {
           <button className="connect-btn" onClick={requestAccount} disabled={isDisabled}>
             Connect Wallet
           </button>
-          <div className="header-details">
+          <div className="header-details medium-title">
             <div>
               <span>Connected Chain ID: </span>
               <span>{connectedChainId}</span>

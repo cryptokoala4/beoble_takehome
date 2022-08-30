@@ -35,6 +35,13 @@ body {
   margin-top: 5px;
 }
 
+.medium-title {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+}
+
 .flex {
   display: flex;
 }
