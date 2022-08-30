@@ -1,0 +1,3 @@
+src/**/*.js
+public/*.js
+webpack.config.js

@@ -1,0 +1,73 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {
+  width: 50vw;
+  height: 30vh;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.201);
+  z-index: 1;
+}
+
+.bg-pattern-img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  z-index: 1;
+}
+
+.image-ens {
+  width: 90px;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.big-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;  
+  text-align: center;
+  margin: 25px 0;
+}
+
+.confirm-button {
+  background-color: #f8f9fa;
+  border: 1px solid #c7c8c9;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  height: 48px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.confirm-button:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+  color: #202124;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 350px;
+    height: 260px;
+  }
+  .big-title-wrapper {
+    margin: 10px 0;
+  }
+}
