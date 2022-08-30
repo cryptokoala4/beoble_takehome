@@ -150,7 +150,7 @@ const App = () => {
   return (
     <>
       {promptMetaMask ? (
-        <div className="missing-metamask">Please install to MetaMask</div>
+        <div className="missing-metamask">Please install MetaMask to continue</div>
       ) : (
         <>
           <Header
