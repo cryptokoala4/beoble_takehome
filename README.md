@@ -19,6 +19,8 @@ Missing features:
 - Displaying the signed message's public key
 - Types may be badly managed
 - Better error handling e.g. when a searched ENS name doesn't exist / null ENS Avatar
+- Better state handling of Provider
+- Better CSS handling (lack of CSS framework makes it time consuming)
 
 The requirements for this coding challenge are:
 - You must use React, Typescript, and Web3.js / Ethers.js (either one of two)
